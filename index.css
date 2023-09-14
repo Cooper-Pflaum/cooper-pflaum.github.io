@@ -7,20 +7,6 @@
   --accent-light: #E2B084;
 }
 
-
-.test{
-  background: var(--main-dark);
-  border: 1px solid #000;
-  height: 50%;
-}
-.test2{
-  background: var(--main-light);
-  border: 1px solid #000;
-  height: 50%;
-}
-
-
-
 body{
   background: var(--bg);
   padding: 0;
