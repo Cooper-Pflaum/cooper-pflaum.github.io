@@ -8,24 +8,6 @@
 }
 
 
-
-body{
-  background: var(--bg);
-  padding: 0;
-  margin: 0;
-}
-
-main {
-  background: var(--accent-dark);
-  height: 100vi;
-}
-
-footer {
-  background: var(--accent-dark);
-  color: var(--text);
-  height: 100%;
-}
-
 .test{
   background: var(--main-dark);
   border: 1px solid #000;
@@ -39,6 +21,11 @@ footer {
 
 
 
+body{
+  background: var(--bg);
+  padding: 0;
+  margin: 0;
+}
 
 
 
