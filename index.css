@@ -1,5 +1,5 @@
 :root {
-  --bg:           #2C3232;
+  --bg:           #1D1D20;
   --text:         #B5B2AD;
   --main-dark:    #515755;
   --main-light:   #758181;
@@ -7,44 +7,29 @@
   --accent-light: #E2B084;
 }
 
-body{
-  background: var(--bg);
-  padding: 0;
-  margin: 0;
-}
-
-
-
-h1 {
-  text-align: center;
-  color: var(--main-light);
-}
-
-
-ul {
-  list-style-type: none;
+* {
   margin: 0;
   padding: 0;
-  text-align: center;
-  background-color: var(--main-dark);
-
 }
 
-li {
-  display: inline-block;
-  min-width: 5%;
-  margin: 0 1%;
-}
 
-li a {
-  text-decoration: none;
-  display: block;
-  font-family:Arial;
+
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg);
   position: relative;
-  color: var(--text);
-  padding: 5% 0;
 }
 
-li a:hover{
-  background: var(--main-light);
+.main {
+  width: 65%;
+  height: 65%;
+  border: 5px solid var(--text);
+    /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--text)
 }
