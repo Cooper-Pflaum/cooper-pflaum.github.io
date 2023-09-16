@@ -50,16 +50,17 @@
 
 .main p {
   width: 50%;
+  border: 1px solid #fff;
   float: left;
+
 }
 
-.main nav {
+.main nav a{
+  padding: 10px;
   text-align: center;
   color: var(--alt-acc);
-
+  display: block;
 }
-
-
 
 .main nav a:link { 
   text-decoration: none; 
