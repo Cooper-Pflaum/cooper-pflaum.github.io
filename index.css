@@ -5,6 +5,7 @@
   --main-light: #758181;
   --acc-dark:   #BA742E;
   --acc-light:  #E2B084;
+  --alt-acc:    #90BAE3;
 }
 
 * {
@@ -24,9 +25,11 @@
   height: 65%;
   padding: 15px;
 
-  border-image: linear-gradient(320deg, var(--acc-light) 5%, var(--acc-dark) 10%, var(--bg) 15%, var(--bg) 85%, var(--acc-light)90%, var(--acc-dark )95%) 100;
-  border-width: 5px;
+/* Used to create the fancy border aroudn the text */
+  border-image: linear-gradient(320deg, var(--text) 10%, var(--main-dark) 20%, var(--bg) 25%, var(--bg) 75%, var(--main-dark)80%, var(--text)90%) 100;
+  border-width: 15px;
   border-style: solid;
+/*-------------------------------------------------*/
 
 /* Center vertically and horizontally */
   position: absolute;
@@ -34,6 +37,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 /*------------------------------------*/
+
   color: var(--text);
   font-size: 30px;
 }
