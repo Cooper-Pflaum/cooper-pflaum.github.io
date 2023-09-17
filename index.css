@@ -1,35 +1,31 @@
 :root {
   --bg:         #1D1D20;
-  --text:       #B5B2AD;
-  --main-dark:  #515755;
-  --main-light: #758181;
-  --acc-dark:   #BA742E;
-  --acc-light:  #E2B084;
-  --alt-acc:    #72A8DC;
+  --text:       #E2E1DF;
+  --main-dark:  #AAABAB;
+  --main-light: #C1C1C1;
+  --acc-dark:   #E78A52;
+  --acc-light:  #FBCB96;
+  --alt:        #5F8787;
 }
 
 * {
   background: var(--bg);
-  /*
-   background: linear-gradient(to bottom right, var(--acc-light), var(--acc-dark), var(--bg), var(--acc-light), var(--acc-dark ));
-  */
+	font-family: "Share Tech";
 }
+
+
+
+
 
 
 .containter {
+/* Center vertically and horizontally */
   position: relative;
+  display: flex;
+ /*------------------------------------*/
 }
 
 .main {
-  width: 65%;
-  height: 65%;
-  padding: 1%;
-
-/* Used to create the fancy border aroudn the text */
-  border-image: linear-gradient(320deg, var(--text) 10%, var(--main-dark) 20%, var(--bg) 25%, var(--bg) 75%, var(--main-dark)80%, var(--text)90%) 100;
-  border-width: 15px;
-  border-style: solid;
-/*-------------------------------------------------*/
 
 /* Center vertically and horizontally */
   position: absolute;
@@ -37,6 +33,21 @@
   left: 50%;
   transform: translate(-50%, -50%);
 /*------------------------------------*/
+  min-width: 650px;
+  max-width: 1500px;
+  min-height: 650px;
+  max-height: 800px;
+  width: 1200px;
+  height: 700px;
+
+  padding: 5px;
+  margin: 0;
+  justify-content: space-between;
+
+/* Used to create the fancy border aroudn the text 
+  border: 2px solid var(--alt);
+  border-radius: 20px;
+/*-------------------------------------------------*/
 
   color: var(--text);
   font-size: 30px;
@@ -45,30 +56,52 @@
 .main h1 {
   margin: 0;
   font-size: 96px;
-  color: var(--acc-dark);
+  width: 75%;
+  float: left;
+}
+
+.main h2 {
+  margin: 0;
+  margin-top: 25px;
+  font-size: 64px;
+  width: 75%;
+  float: left;
 }
 
 .main p {
-  width: 50%;
-  border: 1px solid #fff;
+  margin: 0;
+  margin-top: 100px;
+  margin-left: 200px;
+  padding: 5px;
+  font-size: 28px;
+  width: 75%;
+
+  color: var(--acc-dark);
   float: left;
+  
+}
+
+
+.main ul {
+  list-style-type: none;
+  text-align: right;
+  float: right;
+
+  padding: 5px;
+  margin: 0;
+  width: 20%;
 
 }
 
-.main nav a{
-  padding: 10px;
-  text-align: center;
-  color: var(--alt-acc);
-  display: block;
+.main li a {
+  text-decoration: none;
+  text-align: right;
+  transition: box-shadow 300ms;
+  color: var(--acc-light);
+
 }
 
-.main nav a:link { 
-  text-decoration: none; 
-  color: var(--alt-acc);
-}
-
-.main nav a:visited { 
-  text-decoration: none; 
-  color: var(--alt-acc);
+.main li a:hover {
+  box-shadow: inset 0 -3px var(--text);
 }
 
