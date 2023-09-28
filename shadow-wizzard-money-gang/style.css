@@ -31,6 +31,7 @@ nav {
   list-style-type: none;
   overflow: hidden;
   border-bottom: 4px solid #FFFFFF;
+  font-size: 26px;
 }
 
 nav li{
@@ -54,16 +55,21 @@ nav a:hover {
 
 main {
   grid-area: main;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 main .wizzard {
   padding: auto;
-  width: 80%;
+  width: 60%;
   height: auto;
-  align-items: center
+  background: #fff;
+  border: 1px solid #FFF;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+main  p {
+  padding: 10px;
+  text-align: center;
 }
 
 footer {
