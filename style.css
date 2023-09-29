@@ -21,6 +21,8 @@ body {
   height: 100vh;
 /*background: linear-gradient(120deg, #f4d603, #1a9fb1);*/
   background: var(--bg);
+  transition-property: background;
+  transition-duration: 1s;
 }
 
 .container {
@@ -35,6 +37,7 @@ body {
     ". content content content ."
     ". .       .       .       ."
     ". footer  footer  footer  .";
+  transition: background 0.3s;
 }
 
 .content {
@@ -49,13 +52,43 @@ body {
     ". .      .      .      .";
 
 
+
   /*These lines of code are from*/
   /* https://codyhouse.co/nuggets/css-gradient-borders */
   background: linear-gradient(var(--bg), var(--bg)) padding-box, 
-              linear-gradient(to right, blue, darkorchid) border-box;
+              linear-gradient(45deg, blue, darkorchid) border-box;
   border-radius: 30px;
   border: 4px solid transparent;
 }
+
+.content:has(#UC:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  background: linear-gradient(var(--bg), var(--bg)) padding-box, 
+              linear-gradient(45deg, red, black, white) border-box; 
+}
+
+
+.content-uc {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: 5% auto auto max-content 5%;
+  grid-template-rows: 10% auto auto 10%;
+  grid-template-areas: 
+    ". .      .      .      ."
+    ". main   main   nav    ."
+    ". main   main   nav    ."
+    ". .      .      .      .";
+
+
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  background: linear-gradient(var(--bg), var(--bg)) padding-box, 
+              linear-gradient(45deg, red, black, white) border-box;
+  border-radius: 30px;
+  border: 4px solid transparent;
+}
+
 
 /*=================================NAV=================================*/
 nav {
