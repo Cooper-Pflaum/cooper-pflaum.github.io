@@ -67,7 +67,7 @@ nav {
 nav ul {
   height: 100%;
   display: grid;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: auto;
   grid-template-columns: auto;
   list-style-type: none;
   padding: 5px;
