@@ -1,3 +1,10 @@
+* {
+  font-family: "Share Tech";
+  color: var(--text);
+  padding: 0;
+  margin: 0;
+}
+
 :root {
   --bg:         #1D1D20;
   --text:       #E2E1DF;
@@ -8,13 +15,8 @@
   --alt:        #5F8787;
 }
 
-* {
-  font-family: "Share Tech";
-  color: var(--text);
-  padding: 0;
-  margin: 0;
-}
 
+/*=================================BODY=================================*/
 body {
   height: 100vh;
 /*background: linear-gradient(120deg, #f4d603, #1a9fb1);*/
@@ -35,7 +37,6 @@ body {
     ". footer  footer  footer  .";
 }
 
-
 .content {
   grid-area: content;
   display: grid;
@@ -46,20 +47,17 @@ body {
     ". main   main   nav    ."
     ". main   main   nav    ."
     ". .      .      .      .";
-/*
-  border-width: 4px;
-  border-style: solid;
-  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
-  border-radius: 10px;
 
-*/
 
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
   background: linear-gradient(var(--bg), var(--bg)) padding-box, 
               linear-gradient(to right, blue, darkorchid) border-box;
   border-radius: 30px;
   border: 4px solid transparent;
 }
 
+/*=================================NAV=================================*/
 nav {
   grid-area: nav;
   text-decoration: none;
@@ -97,6 +95,7 @@ nav a:hover{
   color: var(--text);
 }
 
+/*=================================MAIN=================================*/
 main {
   grid-area: main;
   border-radius: 10px;
@@ -107,4 +106,16 @@ main {
 footer {
   grid-area: footer;
   text-align: center;
+}
+
+
+
+/*=================================TEXT=================================*/
+#intro {
+ font-size: 200%; 
+}
+
+
+#about-me {
+  font-size: 150%;
 }
