@@ -24,39 +24,34 @@ body {
 .container {
   height: 100%;
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  grid-template-rows: auto auto auto auto max-content;
+  grid-template-columns: 20% auto auto auto 20%;
+  grid-template-rows: 20% auto auto 15% max-content;
   grid-template-areas: 
-    ". .       .       .      ."
-    ". content content content."
-    ". content content content."
-    ". .       .       .      ."
-    ". footer  footer  footer .";
+    ". .       .       .       ."
+    ". content content content ."
+    ". content content content ."
+    ". .       .       .       ."
+    ". footer  footer  footer  .";
 }
 
 
 .content {
   grid-area: content;
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  column-gap: 5%;
-  grid-template-rows: auto auto auto auto max-content;
+  grid-template-columns: 5% auto auto max-content 5%;
+  grid-template-rows: 10% auto auto 10%;
   grid-template-areas: 
     ". .      .      .      ."
     ". main   main   nav    ."
     ". main   main   nav    ."
-    ". .      .      .      ."
-    ". footer footer footer .";
-  border: 1px solid #FFF;
+    ". .      .      .      .";
+  border: 4px solid #FFFFFF;
+  border-radius: 10px; 
 }
-
-
-
 
 nav {
   grid-area: nav;
   text-decoration: none;
-  text-align:center;
   font-size: 26px;
 }
 
@@ -64,30 +59,35 @@ nav ul {
   height: 100%;
   display: grid;
   grid-template-rows: auto auto auto auto auto;
-  grid-template-columns: max-width;
+  grid-template-columns: auto;
   list-style-type: none;
   border: 1px solid #F00;
+  padding: 5px;
 }
 
 nav li {
-  display: flex;
+  display:flex;
   align-items: center;
   border: 1px solid #F0F;
+  justify-content: center;
 }
 
 nav a {
   transition-property: box-shadow;
   transition-duration: .3s;
+  text-decoration: none;
 }
 
 nav a:hover{
-    box-shadow: inset 0 -3px #FFFFFF;
+  box-shadow: inset 0 -3px #FFFFFF;
 }
 
 main {
   grid-area: main;
+  border: 1px solid #0F0;
   border-radius: 10px;
   padding: 8px;
+  max-width: 80%;
 }
 
 footer {
