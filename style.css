@@ -55,7 +55,7 @@ body {
 */
 
   background: linear-gradient(var(--bg), var(--bg)) padding-box, 
-              linear-gradient(to right, darkblue, darkorchid) border-box;
+              linear-gradient(to right, blue, darkorchid) border-box;
   border-radius: 30px;
   border: 4px solid transparent;
 }
@@ -85,7 +85,7 @@ nav a {
   transition-property: box-shadow color;
   transition-duration: .3s;
   text-decoration: none;
-  color: #666666;
+  color: #999999;
 }
 
 nav a:active{
