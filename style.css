@@ -8,10 +8,6 @@
 :root {
   --bg:         #1D1D20;
   --text:       #E2E1DF;
-  --main-dark:  #AAABAB;
-  --main-light: #C1C1C1;
-  --acc-dark:   #E78A52;
-  --acc-light:  #FBCB96;
   --alt:        #5F8787;
 
   --border-color1: #0000FF;
@@ -56,7 +52,7 @@ body {
 
 
 
-.content {
+.content-main {
   grid-area: content;
   display: grid;
   grid-template-columns: 5% auto auto max-content 5%;
@@ -76,13 +72,25 @@ body {
   transition: --border-color1 1s, --border-color2 1s, --border-color3 1s;
 }
 
+.content-aboutme {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: 5% auto auto max-content 5%;
+  grid-template-rows: 10% auto auto 10%;
+  grid-template-areas: 
+    ". .      .      .      ."
+    ". main   main   nav    ."
+    ". main   main   nav    ."
+    ". .      .      .      .";
 
-.content:has(#UC:hover){
+
   /*These lines of code are from*/
   /* https://codyhouse.co/nuggets/css-gradient-borders */
-  --border-color1: #FF0000;
-  --border-color2: #000000;
-  --border-color3: #FFFFFF;
+  background: linear-gradient(var(--bg), var(--bg)) padding-box, 
+              linear-gradient(45deg, #3E5151, #5B6760, #DECBA4) border-box;
+  border-radius: 30px;
+  border: 4px solid transparent;
+  transition: --border-color1 1s, --border-color2 1s, --border-color3 1s;
 }
 
 .content-uc {
@@ -103,7 +111,28 @@ body {
               linear-gradient(45deg, #FF0000, #000000, #FFFFFF) border-box;
   border-radius: 30px;
   border: 4px solid transparent;
+  transition: --border-color1 1s, --border-color2 1s, --border-color3 1s;
 }
+
+
+
+.content-main:has(#UC:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FF0000;
+  --border-color2: #000000;
+  --border-color3: #FFFFFF;
+}
+
+.content-main:has(#aboutme:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #3E5151;
+  --border-color2: #5B6760;
+  --border-color3: #DECBA4;
+}
+
+
 
 
 /*=================================NAV=================================*/
