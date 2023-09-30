@@ -1,0 +1,300 @@
+.content-main:has(#homepage:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #0000FF;
+  --border-color2: #4918e7;
+  --border-color3: #9932CC;
+}
+
+.content-main:has(#aboutme:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FFD3A5;
+  --border-color2: #FEA999;
+  --border-color3: #FD6585;
+}
+
+.content-main:has(#myresume:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #7F7FD5;
+  --border-color2: #88B3DC;
+  --border-color3: #91EAE4;
+}
+
+.content-main:has(#UC:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FF0000;
+  --border-color2: #000000;
+  --border-color3: #FFFFFF;
+}
+
+.content-main:has(#projects:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #114357;
+  --border-color2: #886E76;
+  --border-color3: #F29492;
+}
+
+.content-main:has(#contacts:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #283048;
+  --border-color2: #576271;
+  --border-color3: #859398;
+}
+/*============================================================================================*/
+
+
+.content-aboutme:has(#homepage:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #0000FF;
+  --border-color2: #4918e7;
+  --border-color3: #9932CC;
+}
+
+.content-aboutme:has(#aboutme:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FFD3A5;
+  --border-color2: #FEA999;
+  --border-color3: #FD6585;
+}
+
+.content-aboutme:has(#myresume:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #7F7FD5;
+  --border-color2: #88B3DC;
+  --border-color3: #91EAE4;
+}
+
+.content-aboutme:has(#UC:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FF0000;
+  --border-color2: #000000;
+  --border-color3: #FFFFFF;
+}
+
+.content-aboutme:has(#projects:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #114357;
+  --border-color2: #886E76;
+  --border-color3: #F29492;
+}
+
+.content-aboutme:has(#contacts:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #283048;
+  --border-color2: #576271;
+  --border-color3: #859398;
+}
+/*============================================================================================*/
+
+
+.content-resume:has(#homepage:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #0000FF;
+  --border-color2: #4918e7;
+  --border-color3: #9932CC;
+}
+
+.content-resume:has(#aboutme:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FFD3A5;
+  --border-color2: #FEA999;
+  --border-color3: #FD6585;
+}
+
+.content-resume:has(#myresume:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #7F7FD5;
+  --border-color2: #88B3DC;
+  --border-color3: #91EAE4;
+}
+
+.content-resume:has(#UC:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FF0000;
+  --border-color2: #000000;
+  --border-color3: #FFFFFF;
+}
+
+.content-resume:has(#projects:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #114357;
+  --border-color2: #886E76;
+  --border-color3: #F29492;
+}
+
+.content-resume:has(#contacts:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #283048;
+  --border-color2: #576271;
+  --border-color3: #859398;
+}
+/*============================================================================================*/
+
+
+.content-projects:has(#homepage:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #0000FF;
+  --border-color2: #4918e7;
+  --border-color3: #9932CC;
+}
+
+.content-projects:has(#aboutme:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FFD3A5;
+  --border-color2: #FEA999;
+  --border-color3: #FD6585;
+}
+
+.content-projects:has(#myresume:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #7F7FD5;
+  --border-color2: #88B3DC;
+  --border-color3: #91EAE4;
+}
+
+.content-projects:has(#UC:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FF0000;
+  --border-color2: #000000;
+  --border-color3: #FFFFFF;
+}
+
+.content-projects:has(#projects:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #114357;
+  --border-color2: #886E76;
+  --border-color3: #F29492;
+}
+
+.content-projects:has(#contacts:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #283048;
+  --border-color2: #576271;
+  --border-color3: #859398;
+}
+/*============================================================================================*/
+
+
+.content-uc:has(#homepage:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #0000FF;
+  --border-color2: #4918e7;
+  --border-color3: #9932CC;
+}
+
+.content-uc:has(#aboutme:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FFD3A5;
+  --border-color2: #FEA999;
+  --border-color3: #FD6585;
+}
+
+.content-uc:has(#myresume:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #7F7FD5;
+  --border-color2: #88B3DC;
+  --border-color3: #91EAE4;
+}
+
+.content-uc:has(#UC:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FF0000;
+  --border-color2: #000000;
+  --border-color3: #FFFFFF;
+}
+
+.content-uc:has(#projects:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #114357;
+  --border-color2: #886E76;
+  --border-color3: #F29492;
+}
+
+.content-uc:has(#contacts:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #283048;
+  --border-color2: #576271;
+  --border-color3: #859398;
+}
+/*============================================================================================*/
+
+
+.content-contact:has(#homepage:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #0000FF;
+  --border-color2: #4918e7;
+  --border-color3: #9932CC;
+}
+
+.content-contact:has(#aboutme:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FFD3A5;
+  --border-color2: #FEA999;
+  --border-color3: #FD6585;
+}
+
+.content-contact:has(#myresume:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #7F7FD5;
+  --border-color2: #88B3DC;
+  --border-color3: #91EAE4;
+}
+
+.content-contact:has(#UC:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #FF0000;
+  --border-color2: #000000;
+  --border-color3: #FFFFFF;
+}
+
+.content-contact:has(#projects:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #114357;
+  --border-color2: #886E76;
+  --border-color3: #F29492;
+}
+
+.content-contact:has(#contacts:hover){
+  /*These lines of code are from*/
+  /* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #283048;
+  --border-color2: #576271;
+  --border-color3: #859398;
+}
+/*============================================================================================*/
+
+
