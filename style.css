@@ -9,15 +9,14 @@
   --bg:         #1D1D20;
   --text:       #E2E1DF;
   --alt:        #5F8787;
-
-  --border-color1: #0000FF;
-  --border-color2: #4E1AE5;
-  --border-color3: #9932CC;
 }
+
+
+
 
 /*Courtesy of Mahozad on stack overflow for changing gradient borders in css
 
-  The way that it works is by transitioning the colors instead of the actual gradient, and it makes it all a whole lot smoother and I can still do the animations
+  The way that it works is by transitioning  color variables instead of the actual gradient, and it makes it all a whole lot smoother and I can still do the animations, as I am interpolating between colors and not the whole gradient
  *
  * */
 @property --border-color1 {
@@ -50,8 +49,8 @@ body {
 .container {
   height: 100%;
   display: grid;
-  grid-template-columns: 20% auto auto auto 20%;
-  grid-template-rows: 10% 10% auto auto 15% max-content;
+  grid-template-columns: 15% auto auto auto 15%;
+  grid-template-rows: 10% 5% auto auto 15% max-content;
   grid-template-areas: 
     ". .       .       .       ."
     ". .       .       .       ."
@@ -118,7 +117,7 @@ body {
 
   transition-timing-function: ease;
   transition-property: --border-color1, --border-color2, --border-color3;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 /*=================================NAV=================================*/
@@ -145,7 +144,7 @@ nav li {
 
 nav a {
   transition-property: box-shadow color;
-  transition-duration: .3s;
+  transition-duration: 0.5s;
   text-decoration: none;
   color: #999999;
 }
@@ -178,6 +177,9 @@ footer {
 }
 
 
-#about-me {
-  font-size: 160%;
+#aboutme-paragraph {
+  font-size: 1.75em;
+}
+#aboutme-paragraph h1 {
+  margin-bottom: 5%;
 }
