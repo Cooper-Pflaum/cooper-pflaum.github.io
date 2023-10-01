@@ -23,7 +23,7 @@
 }
 
 .content:has(#UC:hover){
-  /*These lines of code are from*/
+  /*These lines of code are from*
   /* https://codyhouse.co/nuggets/css-gradient-borders */
   --border-color1: #FF0000;
   --border-color2: #000000;
