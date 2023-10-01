@@ -230,6 +230,29 @@ main {
   color: #999999;
 }
 
+.project-grid a:active {
+  width: 100%;
+  height: 100%;
+
+  
+  --border-color1: #114357;
+  --border-color2: #886E76;
+  --border-color3: #F29492;
+  background: linear-gradient(var(--bg), var(--bg)) padding-box;
+  border-radius: 30px;
+  border: 4px solid transparent;
+  outline: 15px solid var(--bg);
+  
+  
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #999999;
+}
+
+
 /*=================================FOOTER=================================*/
 footer {
   grid-area: footer;
