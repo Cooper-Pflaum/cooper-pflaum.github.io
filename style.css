@@ -9,6 +9,14 @@
   --bg:         #1D1D20;
   --text:       #E2E1DF;
   --alt:        #5F8787;
+
+
+
+
+
+
+
+
 }
 
 
@@ -22,19 +30,19 @@
 @property --border-color1 {
   syntax: '<color>';
   initial-value: #0000FF;
-  inherits: false;
+  inherits: true;
 }
 
 @property --border-color2 {
   syntax: '<color>';
   initial-value: #4918e7;
-  inherits: false;
+  inherits: true;
 }
 
 @property --border-color3 {
   syntax: '<color>';
   initial-value: #9932CC;
-  inherits: false;
+  inherits: true;
 }
 
 /*=================================BODY=================================*/
@@ -172,6 +180,9 @@ main {
   height: 100%;
   text-decoration: none;
   font-size: 26px;
+
+  background: linear-gradient(45deg, var(--border-color1), var(--border-color2), var(--border-color3)) border-box;
+
 }
 
 .project-grid ul {
@@ -182,14 +193,6 @@ main {
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   list-style-type: none;
-  padding: 5px;
-  border: 1px solid #F00;
-
-  --border-color1: #114357;
-  --border-color2: #886E76;
-  --border-color3: #F29492;
-  background: linear-gradient(45deg, var(--border-color1), var(--border-color2), var(--border-color3)) border-box;
-
 }
 
 .project-grid li {
@@ -197,13 +200,8 @@ main {
   align-items: center;
   justify-content: center;
 
-
-  --border-color1: #114357;
-  --border-color2: #886E76;
-  --border-color3: #F29492;
-  border-radius: 30px;
-  border: 4px solid transparent;
   border-radius: 0px;
+  border: 4px solid transparent;
   outline: 10px solid var(--bg);
 
 }
@@ -212,10 +210,6 @@ main {
   width: 100%;
   height: 100%;
 
-  
-  --border-color1: #114357;
-  --border-color2: #886E76;
-  --border-color3: #F29492;
   background: linear-gradient(var(--bg), var(--bg)) padding-box;
   border-radius: 30px;
   border: 4px solid transparent;
@@ -230,27 +224,6 @@ main {
   color: #999999;
 }
 
-.project-grid a:active {
-  width: 100%;
-  height: 100%;
-
-  
-  --border-color1: #114357;
-  --border-color2: #886E76;
-  --border-color3: #F29492;
-  background: linear-gradient(var(--bg), var(--bg)) padding-box;
-  border-radius: 30px;
-  border: 4px solid transparent;
-  outline: 15px solid var(--bg);
-  
-  
-
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: #999999;
-}
 
 
 /*=================================FOOTER=================================*/
