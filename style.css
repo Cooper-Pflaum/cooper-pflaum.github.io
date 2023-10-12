@@ -124,7 +124,9 @@ body {
   border: 4px solid transparent;
 
   transition-timing-function: ease;
-  transition-property: --border-color1, --border-color2, --border-color3;
+  transition-property: --border-color1;
+  transition-property: --border-color2;
+  transition-property: --border-color3;
   transition-duration: 0.5s;
 }
 /*=================================NAV=================================*/
@@ -150,7 +152,8 @@ nav li {
 }
 
 nav a {
-  transition-property: box-shadow color;
+  transition-property: box-shadow;
+  transition-property: color;
   transition-duration: 0.5s;
   text-decoration: none;
   color: #999999;
