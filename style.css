@@ -47,9 +47,8 @@ body {
   height: 100%;
   display: grid;
   grid-template-columns: 15% auto auto auto 15%;
-  grid-template-rows: 10% 5% auto auto 15% max-content;
+  grid-template-rows: 15% auto auto 15% max-content;
   grid-template-areas: 
-    ". .       .       .       ."
     ". .       .       .       ."
     ". content content content ."
     ". content content content ."
@@ -248,4 +247,42 @@ footer {
   display: block;
   text-align: center;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 64em){
+
+  .container {
+    height: 100%;
+    display: grid;
+
+    grid-template-columns: 5% auto auto auto 5%;
+    grid-template-rows: 5% auto auto 5% max-content;
+    grid-template-areas: 
+      ". .       .       .       ."
+      ". content content content ."
+      ". content content content ."
+      ". .       .       .       ."
+      ". footer  footer  footer  .";
+  }
+
+  .content {
+    grid-template-columns: 5% auto auto auto 5%;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+      ". nav    nav   nav   ."
+      ". main   main  main  ."
+
+  }
+
+}
+
+
+
+
+
+
 
