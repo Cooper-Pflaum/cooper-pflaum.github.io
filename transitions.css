@@ -1,3 +1,4 @@
+/*================================= NAV =================================*/
 .content:has(#homepage:hover){
   /*These lines of code are from*/
   /* https://codyhouse.co/nuggets/css-gradient-borders */
@@ -44,5 +45,28 @@
   --border-color1: #283048;
   --border-color2: #576271;
   --border-color3: #859398;
+}
+
+
+
+
+
+/*================================= SOCIALS =================================*/
+.content:has(#instagram:hover){
+  --border-color1: #f9ce34;
+  --border-color2: #ee2a7b;
+  --border-color3: #6228d7;
+}
+
+.content:has(#linkedin:hover){
+  --border-color1: #0077B5;
+  --border-color2: #0077B5;
+  --border-color3: #0077B5;
+}
+
+.content:has(#git:hover){
+  --border-color1: #F1502F;
+  --border-color2: #F1502F;
+  --border-color3: #F1502F;
 }
 
