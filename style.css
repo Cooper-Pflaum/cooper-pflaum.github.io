@@ -233,14 +233,10 @@ footer {
 
 
 /*================================= SOCIALS =================================*/
-#socials {
-  margin-top: auto;
-  align-self: flex-end;
-}
 #socials ul {
   display: flex;
-  justify-content:space-around;
-  list-style-type:none;
+  justify-content: space-around;
+  list-style-type: none;
 }
 
 #socials li a {
@@ -271,12 +267,33 @@ footer {
 
   .content {
     grid-template-columns: 5% auto auto auto 5%;
-    grid-template-rows: auto auto;
+    grid-template-rows: 2% max-content 2% auto;
     grid-template-areas: 
+      ". .      .     .   ."
       ". nav    nav   nav   ."
+      ". .      .     .   ."
       ". main   main  main  ."
-
   }
+
+
+  nav {
+    grid-area: nav;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 5px;
+  }
+
+  nav li a{
+    display: block;
+    text-align: center;
+  }
+
 
 }
 
