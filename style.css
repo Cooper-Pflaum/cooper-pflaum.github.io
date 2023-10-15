@@ -6,8 +6,8 @@
 }
 
 :root {
-  --bg:         #1D1D20;
-  --text:       #E2E1DF;
+  --bg:   #1D1D20;
+  --text: #E2E1DF;
 }
 
 
@@ -111,8 +111,8 @@ body {
   border-radius: 30px;
   border: 4px solid transparent;
 
-  transition-timing-function: ease;
   transition-property: --border-color1, --border-color2, --border-color3;
+  transition-timing-function: ease;
   transition-duration: 0.5s;
 }
 /*================================= NAV =================================*/
@@ -138,7 +138,7 @@ nav li {
 }
 
 nav a {
-  transition-property: box-shadow color;
+  transition-property: box-shadow, color;
   transition-duration: 0.5s;
   text-decoration: none;
   color: #999999;
