@@ -221,7 +221,7 @@ footer {
 
 /*================================= TEXT =================================*/
 #aboutme-paragraph {
-  font-size: 1.75em;
+  font-size: 1.5vw;
 }
 
 #aboutme-paragraph h1 {
@@ -308,8 +308,21 @@ footer {
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
   #aboutme-paragraph {
-    font-size: 1.25em;
+    font-size: 4.3vw;
   }
 }
 
