@@ -2,9 +2,9 @@
 .content:has(#homepage:hover){
   /*These lines of code are from*/
   /* https://codyhouse.co/nuggets/css-gradient-borders */
-  --border-color1: #0000FF;
-  --border-color2: #4918e7;
-  --border-color3: #9932CC;
+  --border-color1: #480048;
+  --border-color2: #8A2F4D;
+  --border-color3: #EA2046;
 }
 
 .content:has(#aboutme:hover){
@@ -34,9 +34,9 @@
 .content:has(#projects:hover){
   /*These lines of code are from*/
   /* https://codyhouse.co/nuggets/css-gradient-borders */
-  --border-color1: #114357;
-  --border-color2: #886E76;
-  --border-color3: #F29492;
+  --border-color1: #0000FF;
+  --border-color2: #4918e7;
+  --border-color3: #9932CC;
 }
 
 .content:has(#contacts:hover){
