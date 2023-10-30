@@ -13,11 +13,11 @@
 
 
 
-/*Courtesy of Mahozad on stack overflow for changing gradient borders in css
+/*
+Courtesy of Mahozad on stack overflow for changing gradient borders in css
 
-  The way that it works is by transitioning  color variables instead of the actual gradient, and it makes it all a whole lot smoother and I can still do the animations, as I am interpolating between colors and not the whole gradient
- *
- * */
+The way that it works is by transitioning  color variables instead of the actual gradient, and it makes it all a whole lot smoother and I can still do the animations, as I am interpolating between colors and not the whole gradient
+*/
 @property --border-color1 {
   syntax: '<color>';
   initial-value: #0000FF;
@@ -235,7 +235,7 @@ footer {
 
 /*================================= SOCIALS =================================*/
 #socials {
-  grid-area: social;
+border-spacing: 2px;  grid-area: social;
 }
 
 #socials ul {
@@ -249,13 +249,24 @@ footer {
   text-align: center;
 }
 
+#certs-and-completions {
+  width: 100%;
+}
 
+table {
+  width: 100%;
+  border-spacing: 50px 10px;
 
+  font-size: 1.2em;
+}
 
+td, th {
+  text-align: center;
+}
 
-
-
-
+th {
+  border: 1px solid var(--text);
+}
 
 
 
@@ -306,20 +317,6 @@ footer {
     display: inline-block;
     padding: 5px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   #aboutme-paragraph {
     font-size: 4.3vw;
