@@ -235,7 +235,7 @@ footer {
 
 /*================================= SOCIALS =================================*/
 #socials {
-border-spacing: 2px;  grid-area: social;
+  border-spacing: 2px;  grid-area: social;
 }
 
 #socials ul {
@@ -255,17 +255,31 @@ border-spacing: 2px;  grid-area: social;
 
 table {
   width: 100%;
-  border-spacing: 50px 10px;
-
   font-size: 1.2em;
-}
-
-td, th {
-  text-align: center;
+  border-collapse: collapse;
 }
 
 th {
-  border: 1px solid var(--text);
+  text-align: center;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+td {
+  border-bottom: 1px solid #4F4F52;
+  padding: 10px;
+}
+
+td :nth-of-type(even) {
+  border-bottom: #FFF;
+}
+
+.tabledate {
+  text-align: center;
+}
+.tablecredit {
+  text-align: center;
 }
 
 
