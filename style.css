@@ -211,8 +211,33 @@ main {
   color: #999999;
 }
 
+table {
+  width: 100%;
+  font-size: 1.2em;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+td {
+  border-bottom: 1px solid #4F4F52;
+  padding: 10px;
+}
+
+td :nth-of-type(even) {
+  border-bottom: #FFF;
+}
 
 
+
+.resume-th {
+  padding-top: 50px;
+}
 /*================================= FOOTER =================================*/
 footer {
   grid-area: footer;
@@ -221,7 +246,7 @@ footer {
 
 /*================================= TEXT =================================*/
 #aboutme-paragraph {
-  font-size: 1.5vw;
+  font-size: 1.5em;
 }
 
 #aboutme-paragraph h1 {
@@ -251,38 +276,11 @@ footer {
 
 #certs-and-completions {
   width: 100%;
-}
 
-table {
-  width: 100%;
-  font-size: 1.2em;
-  border-collapse: collapse;
 }
-
-th {
-  text-align: center;
-  padding-bottom: 20px;
-  text-decoration: underline;
-  text-underline-offset: 8px;
-}
-
-td {
-  border-bottom: 1px solid #4F4F52;
-  padding: 10px;
-}
-
-td :nth-of-type(even) {
-  border-bottom: #FFF;
-}
-
-.tabledate {
+.tabledate, .tablecredit {
   text-align: center;
 }
-.tablecredit {
-  text-align: center;
-}
-
-
 
 /*================================= MEDIA QUERIES =================================*/
 @media only screen and (max-width: 64em){
