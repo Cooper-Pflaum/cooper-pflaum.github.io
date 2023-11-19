@@ -154,12 +154,6 @@ main {
   grid-area: main;
   padding: 8px;
   max-width: 95%;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto max-content;
-  grid-template-areas: 
-    "intro"
-    "social";
 }
 
 
@@ -338,6 +332,32 @@ footer {
 .tabledate, .tablecredit {
   text-align: center;
 }
+
+
+
+
+
+
+
+/*================================= CONTACTS PAGE =================================*/
+.contact-form {
+  width: 100%;
+  height: 100%;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+
+.contact-form input, textarea {
+  display: block;
+  color: var(--text);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #3D3D40;
+  font-size: 1em;
+  margin-bottom: 50px;
+}
+
 
 /*================================= MEDIA QUERIES =================================*/
 @media only screen and (max-width: 64em){
