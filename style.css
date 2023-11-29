@@ -383,7 +383,6 @@ footer {
 .contact-form {
   width: 100%;
   height: 100%;
-  font-size: 32px;
 }
 
 
@@ -392,12 +391,13 @@ footer {
   color: var(--text);
   background: transparent;
   border: none;
-  font-size: 1em;
   padding-top: 50px;
   transition-property: box-shadow;
   transition-duration: 0.5s;
 
   box-shadow: inset 0 -3px #3D3D40;
+  resize: none;
+  font-size: 32px;
 }
 
 .contact-form textarea:focus {
@@ -413,9 +413,7 @@ footer {
   border: 2px solid #3D3D40;
   border-radius: 20px;
   padding: 10px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+
   box-shadow: none;
 }
 /*================================= MEDIA QUERIES =================================*/
