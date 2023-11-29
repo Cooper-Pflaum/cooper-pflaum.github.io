@@ -93,6 +93,18 @@ body {
   --border-color3: #859398;
 }
 
+#video-page {
+  --border-color1: #4D3549;
+  --border-color2: #949785;
+  --border-color3: #DBF8C1;
+}
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=4d3549&c2=dbf8c1&gt=l&gd=dtl
+*/
+
+
 .content {
   grid-area: content;
   display: grid;
@@ -115,6 +127,11 @@ body {
   transition-timing-function: ease;
   transition-duration: 0.5s;
 }
+
+
+
+
+
 /*================================= NAV =================================*/
 nav {
   grid-area: nav;
@@ -161,6 +178,11 @@ iframe {
   width: 100%;
   height: 100%;
 }
+
+
+
+
+
 
 /*
 This is all from the YouTube Channel "Web UI Tutorials linked here -> https://www.youtube.com/watch?v=45mnmy2JUl0&list=WL&index=2&t=12s
@@ -362,7 +384,6 @@ footer {
   width: 100%;
   height: 100%;
   font-size: 32px;
-  margin-top: 10px;
 }
 
 
@@ -373,7 +394,16 @@ footer {
   border: none;
   border-bottom: 1px solid #3D3D40;
   font-size: 1em;
-  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.contact-form input[type="submit"] {
+  border: 2px solid #3D3D40;
+  border-radius: 20px;
+  padding: 5px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 

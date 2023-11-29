@@ -47,6 +47,14 @@
   --border-color3: #859398;
 }
 
+.content:has(#video:hover){
+/*These lines of code are from*/
+/* https://codyhouse.co/nuggets/css-gradient-borders */
+  --border-color1: #4D3549;
+  --border-color2: #949785;
+  --border-color3: #DBF8C1;
+}
+
 
 
 
