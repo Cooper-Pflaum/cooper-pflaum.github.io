@@ -319,7 +319,12 @@ td :nth-of-type(even) {
 footer {
   grid-area: footer;
   text-align: center;
+  color: #3D3D40;
 }
+
+/* footer a:hover{ */
+/*   color: var(--text); */
+/* } */
 
 /*================================= TEXT =================================*/
 #aboutme-paragraph {
@@ -537,26 +542,42 @@ footer {
 
 
 
-.card[for="c1"] {
-  background-image: url('assets/photos/network.png');
-  width: 100%;
-}
-.card[for="c2"] {
-  background-image: url('assets/photos/coding.png');
-  width: 100%;
-  
-}
-.card[for="c3"] {
-  background-image: url('assets/photos/eagle-scout.png');
-  width: 100%;
-}
+  .card[for="c1"] {
+    background-image: url('assets/photos/network.png');
+    width: 100%;
+  }
+  .card[for="c2"] {
+    background-image: url('assets/photos/coding.png');
+    width: 100%;
+    
+  }
+  .card[for="c3"] {
+    background-image: url('assets/photos/eagle-scout.png');
+    width: 100%;
+  }
 
 
 
 
 
+  .contact-form input, textarea {
+    display: block;
+    color: var(--text);
+    background: transparent;
+    border: none;
+    padding-top: 50px;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+
+    box-shadow: inset 0 -3px #3D3D40;
+    resize: none;
+    font-size: 18px;
+  }
 
 
+  .page-header {
+    text-align: center;
+  }
 
 
 }
