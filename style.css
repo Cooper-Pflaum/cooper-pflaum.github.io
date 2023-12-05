@@ -495,7 +495,7 @@ footer {
   .card > .row {
     color: white;
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
   }
 
   .card > .row > .icon {
